@@ -3,8 +3,7 @@ const { SupportRequestPage } = require('../pages/SupportRequestPage');
 
 test('should submit a request and check response status', async ({ page }) => {
   const supportPage = new SupportRequestPage(page);
-  await page.goto('https://awery.aero/support');
-
+  await page.goto('/support');
   await supportPage.fillProblemDescription('Опис проблеми.');
   await supportPage.fillEmail('test@example.com');
   await supportPage.fillWhenItStarted('Сьогодні');
