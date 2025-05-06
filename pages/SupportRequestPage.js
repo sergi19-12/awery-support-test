@@ -1,4 +1,4 @@
-class SupportRequestPage {
+export class SupportRequestPage {
   constructor(page) {
     this.page = page;
     this.problemDescriptionInput = page.locator('input[name="support[enquiry][problem_description]"]');

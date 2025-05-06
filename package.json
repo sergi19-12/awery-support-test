@@ -12,6 +12,7 @@
     "@types/node": "^22.15.12"
   },
   "dependencies": {
+    "@faker-js/faker": "^9.7.0",
     "2captcha": "^3.0.5-2"
   }
 }
